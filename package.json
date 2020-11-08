@@ -2,9 +2,9 @@
   "name": "react-blueprint",
   "version": "1.0.0",
   "description": "Blueprint for React apps",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js",
+    "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,9 @@
   "homepage": "https://github.com/EuanFerrier/React-Blueprint#readme",
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "webpack-merge": "^4.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
